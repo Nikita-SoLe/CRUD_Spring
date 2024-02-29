@@ -4,7 +4,7 @@ import web.model.User;
 
 import java.util.List;
 
-public interface DAO {
+public interface UserDAO {
     void create(User user);
     User read(Long id);
     void update(User user);

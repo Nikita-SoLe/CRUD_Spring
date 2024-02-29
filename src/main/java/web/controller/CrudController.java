@@ -34,9 +34,6 @@ public class CrudController {
 
     @GetMapping("showDetails")
     public String showUserDetails(@ModelAttribute("user") User user) {
-
-        System.out.println(user);
-
         service.create(user);
         return "redirect:/";
     }
