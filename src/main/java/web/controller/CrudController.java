@@ -32,7 +32,7 @@ public class CrudController {
         return "ask-user-details-view";
     }
 
-    @GetMapping("showDetails")
+    @GetMapping("/showDetails")
     public String showUserDetails(@ModelAttribute("user") User user) {
         service.create(user);
         return "redirect:/";

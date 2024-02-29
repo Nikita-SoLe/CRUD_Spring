@@ -40,7 +40,7 @@
 
 <h2>User Details Form</h2>
 
-<form action="showDetails" method="get" th:object="${user}">
+<form action="/showDetails" method="get" th:object="${user}">
     Name <input type="text" th:field="*{name}"/>
     <br><br>
     Last Name <input type="text" th:field="*{lastName}"/>

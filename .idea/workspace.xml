@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0efb492a-794b-4730-bc22-ed71478f06c8" name="Changes" comment="0.1" />
+    <list default="true" id="0efb492a-794b-4730-bc22-ed71478f06c8" name="Changes" comment="0.1.2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/controller/CrudController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/controller/CrudController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-user-details-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ask-user-details-view.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,6 +191,7 @@
       <workItem from="1709218546616" duration="107000" />
       <workItem from="1709218684015" duration="668000" />
       <workItem from="1709220306535" duration="1061000" />
+      <workItem from="1709221827968" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="0.1">
       <option name="closed" value="true" />
@@ -197,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709221347058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0.1.1">
+      <option name="closed" value="true" />
+      <created>1709221943937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709221943937</updated>
+    </task>
+    <task id="LOCAL-00003" summary="0.1.2">
+      <option name="closed" value="true" />
+      <created>1709222078319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709222078319</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +225,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1" />
+    <MESSAGE value="0.1.1" />
+    <MESSAGE value="0.1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
