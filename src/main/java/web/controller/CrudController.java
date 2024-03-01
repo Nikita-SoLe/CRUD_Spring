@@ -7,16 +7,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import web.model.User;
-import web.service.ServiceUser;
+import web.service.UserService;
 
 
 @Controller
 public class CrudController {
+    private final UserService service;
 
-    private ServiceUser service;
-
-    @Autowired
-    public CrudController(@Qualifier("serviceUserImpl") ServiceUser service) {
+    public CrudController(UserService service) {
         this.service = service;
     }
 
